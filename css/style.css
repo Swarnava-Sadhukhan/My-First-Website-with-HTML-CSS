@@ -1,0 +1,159 @@
+body {
+	background-color:gray;
+	margin:0;
+}
+
+.container {
+	width:780px;
+	margin:0 auto;
+	background-color:white;
+	box-shadow:0px 9px 13px 5px;
+}
+
+.header {
+	padding:45px 0 20px 20px;
+	/*border:2px solid black;*/
+}
+
+.header a {
+	text-decoration:none;
+	font-size:24px;
+	color:black;
+}
+
+.menu {
+	background-color:lightblue;
+	padding:6px 0 4px 20px;
+}
+
+.menu a {
+	color:white;
+	text-decoration:none;
+	font-size:14px;
+	font-family:"Arial Narrow","Myriad Pro";
+}
+
+.menu a:hover {
+	color:black;
+	text-decoration:underline;
+}
+
+aside {
+	float:left;
+	width:120px;
+	padding:30px 0 0 40px;
+}
+
+aside h1 {
+	font-size:24px;
+	font-family:"Arial Narrow","Myriad Pro";
+	color:lightgreen;
+	margin:0;
+	font-weight:normal;
+}
+
+aside a {
+	font-size:16px;
+	font-family:"Arial Narrow","Myriad Pro";
+	color:black;
+	margin:0;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+aside a:hover {
+	color:black;
+	text-decoration:underline;
+}
+
+
+.main {
+	color:#444444;
+	margin:0 0 0 180px;
+	padding:35px 40px 30px 0;
+	font-family:"Georgia";
+	font-size:13px;
+	line-height:18px;
+	text-emphasis:justify;
+}
+
+.main a:hover {
+	color:black;
+	text-decoration:underline;
+}
+
+#home_img img {
+	width:100%;
+}
+
+
+/** About Page  **/
+
+
+#about-page #img img{
+	width:30%;
+	height:20%;
+	margin:30px;
+	float:left;
+}
+
+
+#about-page #info {
+	width:60%;
+	float:right;
+	text-color:black;
+	font-size:14px;
+	margin-top:100px;
+}
+
+#about-page .description {
+	clear:both;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+
+/********************************/
+
+
+/** Contacts Page **/
+
+#contact-page #form {
+	width:500px;
+	margin:0 auto;
+	padding:10px 10px 10px 10px;
+	/*border:2px solid black;*/
+	margin-bottom:10px;
+	border-radius:5px;
+	box-shadow:0px 5px 10px 5px;
+}
+
+#contact-page #form input {
+	width:80%;
+	height:20px;
+	background:lightgray;
+	border-radius:5px;
+	
+}
+
+#contact-page #form #message {
+	width:80%;
+	background:lightgray;
+	border-radius:5px;
+}
+
+#contact-page #form #submit {
+	margin-left:70px;
+	width:20%;
+	background:lightblue;
+	height:30px;
+}
+
+footer {
+	background:black;
+	color:white;
+	padding:6px 40px 6px 40px;
+	text-align:right;
+	font-family:"Lucida Sans Unicode";
+	font-size:11px;
+}

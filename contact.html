@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>
+		Contact Us
+	</title>
+	<link rel="stylesheet" href="css\style.css">
+	<script src="js\scripts.js"></script>
+</head>
+<body id="contact-page">
+	<div class="container">
+		<header class="header">
+			<a href="index.html">My Website</a>
+		</header>
+		
+		<nav class="menu">
+			<a href="index.html">Home</a> &nbsp; &nbsp; &nbsp;
+			<a href="about.html">About us</a> &nbsp; &nbsp; &nbsp;
+			<a href="contact.html">Contact</a>
+		</nav>
+		
+		
+		
+		<article>
+			
+			<h1 style="margin-left:20px; text-align:center;"> <b>Contact</b> </h1>
+		
+			<div id="form">
+				
+				<form action="process.php" method="POST" >
+					
+					<p>
+					<label for="name">Name:<br></label>
+					<input type="name" name="name" placeholder="Enter your name : " >
+					</p>
+					
+					<p>
+					<label for="email">E-mail:<br></label>
+					<input type="email" name="email" placeholder="Enter your email id : ">
+					</p>
+					
+					<p>
+					<label for="subject">Subject:<br></label>
+					<input type="text" name="subject" placeholder="Enter the subject : " >
+					</p>
+					
+					<p>
+					<label for="message">Message:<br></label>
+					<textarea name="message" id="message" cols="30" rows="10" ></textarea>
+					</p>
+					
+					<p>
+					<input type="submit" name="submit" value="submit">
+					</p>
+				</form>
+			</div>
+		</article>
+		
+		<footer>
+			&copy; 2019 My Website &nbsp; Designed by Swarnava Sadhukhan. 
+		</footer>
+	</div>
+</body>
+</html>
